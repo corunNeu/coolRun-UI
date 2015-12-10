@@ -16,4 +16,4 @@ require:node.js bower&grunt
 
 #step2: npm install
 
-Build: grunt
+Build: grunt .
