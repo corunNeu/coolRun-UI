@@ -16,4 +16,4 @@ copy from Mobile Angular UI
 
 #step2: npm install
 
-#Build: grunt .
+#Build: grunt
