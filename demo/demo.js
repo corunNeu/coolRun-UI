@@ -31,6 +31,8 @@ app.config(function($routeProvider) {
   $routeProvider.when('/dropdown',      {templateUrl: 'dropdown.html', reloadOnSearch: false});
   $routeProvider.when('/drag',          {templateUrl: 'drag.html', reloadOnSearch: false});
   $routeProvider.when('/carousel',      {templateUrl: 'carousel.html', reloadOnSearch: false});
+
+  $routeProvider.when('/button',      {templateUrl: 'button.html', reloadOnSearch: false});
 });
 
 //

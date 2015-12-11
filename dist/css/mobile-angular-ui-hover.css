@@ -92,29 +92,29 @@ a.bg-danger:hover {
 }
 
 .btn:hover {
-  color: #333333;
+  color: #ffffff;
   text-decoration: none;
 }
 
 .btn-default:hover {
-  color: #333333;
-  background-color: #e6e6e6;
-  border-color: #adadad;
+  color: #ffffff;
+  background-color: #4d4d4d;
+  border-color: #474747;
 }
 
 .btn-default:active:hover,
 .btn-default.active:hover,
 .open > .dropdown-toggle.btn-default:hover {
-  color: #333333;
-  background-color: #d4d4d4;
-  border-color: #8c8c8c;
+  color: #ffffff;
+  background-color: #3b3b3b;
+  border-color: #262626;
 }
 
 .btn-default.disabled:hover,
 .btn-default[disabled]:hover,
 fieldset[disabled] .btn-default:hover {
-  background-color: #ffffff;
-  border-color: #cccccc;
+  background-color: #666666;
+  border-color: #666666;
 }
 
 .btn-primary:hover {
@@ -564,16 +564,21 @@ button.list-group-item-danger.active:hover {
   box-shadow: none;
 }
 
+.btn.btn-primary.btn-border:hover {
+  -webkit-box-shadow: none;
+  box-shadow: none;
+}
+
 .btn-group > .btn-default.active:hover {
   color: #cccccc;
-  background-color: #666;
-  border-color: #ff6600;
+  background-color: #666666;
+  border-color: #ff6600 !important;
 }
 
 .btn-group > .btn-default:hover {
   color: #999999;
   background-color: inherit;
-  border-color: #ff6600;
+  border-color: #ff6600 !important;
 }
 
 .navbar-app .btn-navbar:hover,

@@ -319,7 +319,7 @@
   margin-bottom: 1rem;
   list-style: none;
   background-color: #f5f5f5;
-  border-radius: 4px;
+  border-radius: 0.3333333rem;
 }
 .breadcrumb > li {
   display: inline-block;
@@ -336,7 +336,7 @@
   display: inline-block;
   padding-left: 0;
   margin: 1rem 0;
-  border-radius: 4px;
+  border-radius: 0.3333333rem;
 }
 .pagination > li {
   display: inline;
@@ -356,13 +356,13 @@
 .pagination > li:first-child > a,
 .pagination > li:first-child > span {
   margin-left: 0;
-  border-bottom-left-radius: 4px;
-  border-top-left-radius: 4px;
+  border-bottom-left-radius: 0.3333333rem;
+  border-top-left-radius: 0.3333333rem;
 }
 .pagination > li:last-child > a,
 .pagination > li:last-child > span {
-  border-bottom-right-radius: 4px;
-  border-top-right-radius: 4px;
+  border-bottom-right-radius: 0.3333333rem;
+  border-top-right-radius: 0.3333333rem;
 }
 .pagination > li > a:hover,
 .pagination > li > span:hover,
@@ -404,13 +404,13 @@
 }
 .pagination-lg > li:first-child > a,
 .pagination-lg > li:first-child > span {
-  border-bottom-left-radius: 6px;
-  border-top-left-radius: 6px;
+  border-bottom-left-radius: 0.5rem;
+  border-top-left-radius: 0.5rem;
 }
 .pagination-lg > li:last-child > a,
 .pagination-lg > li:last-child > span {
-  border-bottom-right-radius: 6px;
-  border-top-right-radius: 6px;
+  border-bottom-right-radius: 0.5rem;
+  border-top-right-radius: 0.5rem;
 }
 .pagination-sm > li > a,
 .pagination-sm > li > span {
@@ -420,13 +420,13 @@
 }
 .pagination-sm > li:first-child > a,
 .pagination-sm > li:first-child > span {
-  border-bottom-left-radius: 3px;
-  border-top-left-radius: 3px;
+  border-bottom-left-radius: 0.25rem;
+  border-top-left-radius: 0.25rem;
 }
 .pagination-sm > li:last-child > a,
 .pagination-sm > li:last-child > span {
-  border-bottom-right-radius: 3px;
-  border-top-right-radius: 3px;
+  border-bottom-right-radius: 0.25rem;
+  border-top-right-radius: 0.25rem;
 }
 .jumbotron {
   padding-top: 30px;
@@ -449,9 +449,9 @@
 }
 .container .jumbotron,
 .container-fluid .jumbotron {
-  border-radius: 6px;
-  padding-left: 1.25rem;
-  padding-right: 1.25rem;
+  border-radius: 0.5rem;
+  padding-left: 15px;
+  padding-right: 15px;
 }
 .jumbotron .container {
   max-width: 100%;

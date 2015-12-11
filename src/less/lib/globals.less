@@ -3,6 +3,7 @@
 html {
   height: 100%;
   width: 100%;
+  font-size: 12px;
   overflow: hidden;
 }
 
@@ -43,4 +44,16 @@ h1,h2,h3,h4,h5,h6 {
 
 img {
   max-width: 100%;
+}
+hr.top{
+  margin: 0 @grid-gutter-width/-2;
+  border-top: 1px solid @gray-base;
+  border-bottom: 1px solid @gray-hr-top;
+}
+hr.line {
+
+  /*margin-right: -15px;*/
+  margin: 0 @grid-gutter-width/-2;
+  border-top: 1px solid @gray-base;
+  border-bottom: 1px solid @gray-hr-line;
 }

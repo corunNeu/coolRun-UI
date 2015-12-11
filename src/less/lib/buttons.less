@@ -1,6 +1,7 @@
 // Buttons
 
 .btn {
+  //border: none;
   &.active {
     &, &:hover, &:focus, &:active {
       .box-shadow(none);
@@ -8,12 +9,41 @@
   }
 }
 
+.btn {
 
+  &.btn-primary {
+    border: 0;
+    &.btn-border {
+      color: @brand-primary;
+      background: inherit;
+      border: 1px solid @brand-primary;
+
+      &:hover, &:focus, &:active {
+        .box-shadow(none);
+      }
+    }
+  }
+  &.btn-default {
+    border: 0;
+    &.btn-border {
+      background: inherit;
+      border: 1px solid @default;
+      color: @default;
+
+      //&:hover, &:focus, &:active {
+      //  .box-shadow(none);
+      //}
+    }
+  }
+}
 
 .btn-group {
 
   &.justified > .btn {
-    &:not(:last-child) { // Trick for IE8: IE8 should ignore :not thus rendering the 1px border anyway
+
+    border: 1px solid transparent;
+    &:not(:last-child) {
+      // Trick for IE8: IE8 should ignore :not thus rendering the 1px border anyway
       border-right-width: 0;
     }
 
@@ -21,8 +51,8 @@
       border-right-width: 1px;
     }
 
-    &:not(:last-child).active+.btn {
-      border-left-width: 0; 
+    &:not(:last-child).active + .btn {
+      border-left-width: 0;
     }
   }
 
@@ -30,18 +60,18 @@
     border: 0 none;
   }
 
-  >.btn-default.active, 
-  >.btn-default.active:hover, 
-  >.btn-default.active:focus {
+  > .btn-default.active,
+  > .btn-default.active:hover,
+  > .btn-default.active:focus {
     color: @gray-lighter;
-    background-color: #666;
-    border-color: @brand-primary;
+    background-color: @default;
+    border-color: @brand-primary !important;
   }
-  >.btn-default,
-  >.btn-default:hover,
-  >.btn-default:focus  {
+  > .btn-default,
+  > .btn-default:hover,
+  > .btn-default:focus {
     color: @gray-light;
     background-color: inherit;
-    border-color: @brand-primary;
+    border-color: @brand-primary !important;
   }
 }

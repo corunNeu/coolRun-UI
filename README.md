@@ -12,10 +12,10 @@ copy from Mobile Angular UI
 
 ##require:node.js bower&grunt
 
-#step1: bower install
+###step1: bower install
 
-#step2: npm install
+###step2: npm install
 
-#Build: grunt
+###Build: grunt
 
-#start server: http-server -a localhost -p 8000
+###start server: http-server -a localhost -p 8000
