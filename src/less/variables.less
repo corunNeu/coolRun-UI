@@ -1,8 +1,9 @@
 @import "../../bower_components/font-awesome/less/variables";
-@import "../../bower_components/bootstrap/less/variables.less";
+@import "bootstrap-variables";
+
 
 // Bootstrap Overrides
-@brand-primary: #007aff;
+@brand-primary: #ff6600;
 @brand-success: #4cd964;
 @brand-warning: #fc0;
 @brand-danger: #ff3b30;
@@ -59,7 +60,7 @@
 
 // Overlays
 @overlay-margin: -5px -5px -5px -5px;
-@overlay-background: rgba(255, 255, 255, .95);
+@overlay-background: @gray-dark;
 @overlay-content-padding: 20px;
 @overlay-dismiss-font-size: 24px;
 @overlay-dismiss-margin: @overlay-content-padding / 2;
@@ -106,6 +107,6 @@
 @zindex-sidebar-header: 10;
 @sidebar-header-padding: 0 10px;
 @sidebar-header-color: #fff;
-@sidebar-background: @gray;
+@sidebar-background: @gray-dark;
 @sidebar-left-background: @sidebar-background;
 @sidebar-right-background: @sidebar-background;

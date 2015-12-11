@@ -5,8 +5,8 @@ copy from Mobile Angular UI
 
 
 ### Support development
-<a href='https://www.coolrun.cn>戈壁之眼</a>
-<a href='https://www.coolrun.cn><img  src='http://www.coolrun.cn/Resource/image/mobile/homepage/home.png' border='0' ></a>
+<a href='www.coolrun.cn>戈壁之眼</a>
+<a href='www.coolrun.cn><img  src='http://www.coolrun.cn/Resource/image/mobile/homepage/home.png' border='0' ></a>
 
 
 
@@ -17,3 +17,5 @@ copy from Mobile Angular UI
 #step2: npm install
 
 #Build: grunt
+
+#start server: http-server -a localhost -p 8000

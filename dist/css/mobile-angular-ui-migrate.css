@@ -23,7 +23,7 @@
   bottom: 0;
   right: 0;
   margin: -5px -5px -5px -5px;
-  background: rgba(255, 255, 255, 0.95);
+  background: #15151a;
   z-index: 1040;
 }
 .overlay .overlay-inner > .overlay-dismiss {
