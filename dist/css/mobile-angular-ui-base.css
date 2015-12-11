@@ -8444,15 +8444,15 @@ a.panel-heading {
   background-color: #d7d7d7;
   border: 1px solid #cccccc;
   border-radius: 999px;
+  box-shadow: 1px 1px #888888;
 }
 
 .switch.active {
-  background-color: #ff6600;
-  border: 1px solid #ff6600;
+  background-color: #4cd964;
+  border: 1px solid #4cd964;
 }
 
 .switch.active .switch-handle {
-  border-color: #ff6600;
   -webkit-transform: translate(4rem, 0);
   -ms-transform: translate(4rem, 0);
   -o-transform: translate(4rem, 0);
