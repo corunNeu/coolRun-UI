@@ -4,7 +4,12 @@ a.panel-heading {
 
 .panel-heading {
   >.btn, >.btn-group>.btn {
-  margin-top: -(@padding-base-vertical + 2);
-  margin-right: -15px;
+  margin-top: -(@padding-base-vertical + 0.1666666);
+  margin-right: -1.25rem;
+  }
+}
+.panel{
+  &:hover,:focus{
+    background-color: lighten(@panel-bg,15%);
   }
 }

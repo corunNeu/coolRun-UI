@@ -585,3 +585,19 @@ button.list-group-item-danger.active:hover {
 .navbar-app .btn:hover {
   color: #ff6600;
 }
+
+.panel:hover {
+  background-color: #373744;
+}
+
+.dropdown-menu > li.active:hover,
+.dropdown-menu > li > a.active:hover {
+  color: #999999;
+  background-color: #333333;
+}
+
+.dropdown-menu > li:hover,
+.dropdown-menu > li > a:hover {
+  color: #999999;
+  background-color: #333333;
+}
